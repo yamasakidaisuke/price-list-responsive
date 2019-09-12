@@ -1,0 +1,65 @@
+body {
+	margin: 0 5em; //仮
+}
+
+body {
+	font-size: 14px; //おしゃれに見えるサイズ
+}
+
+@media (max-width:767px) {
+	body {
+		font-size: 16px; //SPで読みやすいサイズ
+	}
+}
+
+.price-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width:767px) {
+	.price-content {
+		flex-direction: column;
+	}
+}
+
+.price-content-child-left, .price-content-child-right {
+	width: 50%;
+}
+
+@media (max-width:767px) {
+	.price-content-child-left, .price-content-child-right {
+		width: 100%;
+	}
+}
+
+.price-dl {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.price-dl>dt, .price-dl>dd {
+	padding: .3rem;
+}
+
+.price-dl>dt {
+	width: 50%;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.price-dl>dd {
+	width: 50%;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: right;
+}
+
+.price-dl>dt.price-title {
+	width: 100%;
+	font-weight: bold;
+}
+
+.price-dl>dt.notice {
+	width: 100%;
+	font-size: 70%;
+	border-bottom: initial;
+}
