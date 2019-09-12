@@ -1,5 +1,5 @@
 # price-list-responsive
-価格表を、dl・dt・dd(説明リスト)をFlexベースでレスポンシブ対応
+価格表を、dl・dt・dd（説明リスト）をFlexベースでレスポンシブ対応
 ## とりあえずデモ
 * [デモ画面](https://yamasakidaisuke.github.io/price-list-responsive/)
 ## 仕様
